@@ -1,12 +1,3 @@
-version: '3.3'
-
-# Note: CPU, memory, etc. are not available in compose files v3 for docker-compose, only for services
-#   cf. https://docs.docker.com/compose/compose-file/#resources
-# Same for --pids-limit 200 nowhere to be seen on v3, available in v2
-# Same for --restart=on-failure:5
-
-# Do not go over 2 replicas per service or it keeps shutting down & restarting (network allocation error ?)
-
 services:
   web:
     cap_drop:
