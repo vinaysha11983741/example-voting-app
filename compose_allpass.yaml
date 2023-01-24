@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.3'
 
 # Note: CPU, memory, etc. are not available in compose files v3 for docker-compose, only for services
 #   cf. https://docs.docker.com/compose/compose-file/#resources
