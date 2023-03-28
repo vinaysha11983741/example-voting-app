@@ -3,5 +3,5 @@ services:
     web:
         image: nginx
     db:
-        image: mysql
+        image: alpine
 
